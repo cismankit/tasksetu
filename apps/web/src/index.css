@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #64748b;
+}
+
+.tagline-hi {
+  font-size: 1rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.cta-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.section.highlight {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.steps {
+  padding-left: 1.25rem;
+}
+
+.steps li {
+  margin-bottom: 0.75rem;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  background: #f1f5f9;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  border: 1px solid #e2e8f0;
+}
+
+.feature-list {
+  padding-left: 1.25rem;
+}
+
+.feature-list li {
+  margin-bottom: 0.5rem;
+}
+
+.beta-section {
+  border-color: #2563eb;
+}
+
+.beta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.beta-form input,
+.beta-form select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.consent {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.form-error {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.success {
+  color: #16a34a;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.faq-item {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  background: #fafafa;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-item p {
+  margin: 0.5rem 0 0;
+  color: #64748b;
+}
+
+footer {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.875rem;
+  padding: 2rem 0;
+}

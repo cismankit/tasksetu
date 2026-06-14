@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "TaskSetu",
+    "slug": "tasksetu",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "tasksetu",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#2563EB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tasksetu.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2563EB"
+      },
+      "package": "com.tasksetu.app"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,1 @@
+../../../.cursor/rules/tasksetu-product-os.md

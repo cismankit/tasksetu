@@ -1,0 +1,24 @@
+{
+  "name": "tasksetu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TaskSetu — Your life admin, handled.",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:mobile": "pnpm --filter @tasksetu/mobile dev",
+    "dev:web": "pnpm --filter @tasksetu/web dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@tasksetu/config": "workspace:*",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
