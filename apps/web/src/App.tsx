@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@tasksetu/ui';
 import { APP_TAGLINE, APP_TAGLINE_HI } from '@tasksetu/core';
-import './App.css';
+import './index.css';
 
 const FAQ_ITEMS = [
   {

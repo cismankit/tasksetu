@@ -1,0 +1,15 @@
+{
+  "extends": "@tasksetu/config/tsconfig/react.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tasksetu/core": ["../../packages/core/src/index.ts"],
+      "@tasksetu/ui": ["../../packages/ui/src/index.ts"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "vite.config.ts"]
+}
